@@ -1,8 +1,8 @@
 Package.describe({
   name:'photonic:active-users-upsert',
   version: '0.0.1',
-  sumary: '',
-  git: '',
+  sumary: 'ActiveUsers::userUpsertPage',
+  git: 'https://github.com/awatson1978/photonic/tree/master/packages/active-users-upsert',
   documentation: 'README.md',
 });
 

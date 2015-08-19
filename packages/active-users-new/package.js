@@ -1,7 +1,7 @@
 Package.describe({
   name:'photonic:active-users-new',
   version: '0.0.1',
-  sumary: '',
+  summary: '',
   git: '',
   documentation: 'README.md',
 });
