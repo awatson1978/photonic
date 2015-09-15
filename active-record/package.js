@@ -1,6 +1,6 @@
 Package.describe({
   name: 'photonic:active-record',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'Photonic::ActiveRecord',
   // URL to the Git repository containing the source code for this package.
@@ -36,6 +36,6 @@ Package.onTest(function (api) {
   api.use('tinytest');
   api.use('photonic:active-record');
   api.use('clinical:verification');
-  
+
   api.addFiles('active-record-tests.js');
 });
