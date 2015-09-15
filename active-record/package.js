@@ -18,13 +18,13 @@ Package.onUse(function (api) {
   api.use('less');
 
   api.use('photonic:active-record-core@0.0.1');
-  api.use('photonic:active-record-edit@0.0.1');
   api.use('photonic:active-record-imagegrid@0.0.1');
   api.use('photonic:active-record-list@0.0.1');
-  api.use('photonic:active-record-new@0.0.1');
   api.use('photonic:active-record-preview@0.0.1');
   api.use('photonic:active-record-table@0.0.1');
   api.use('photonic:active-form-upsert@0.0.1');
+  // api.use('photonic:active-record-edit@0.0.1');
+  // api.use('photonic:active-record-new@0.0.1');
 
   api.imply('aldeed:simple-schema@1.3.3');
   api.imply('aldeed:collection2@2.3.3');
@@ -35,5 +35,7 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use('tinytest');
   api.use('photonic:active-record');
+  api.use('clinical:verification');
+  
   api.addFiles('active-record-tests.js');
 });
