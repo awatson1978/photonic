@@ -12,6 +12,8 @@ Package.onUse( function ( api ) {
   api.use('iron:router@1.0.7');
   api.use('less');
 
+  api.use('photonic:glass-ui');
+
   api.addFiles('components/usersTablePage/usersTablePage.html', ['client']);
   api.addFiles('components/usersTablePage/usersTablePage.js', ['client']);
   api.addFiles('components/usersTablePage/usersTablePage.less', ['client']);
