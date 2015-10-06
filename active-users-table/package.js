@@ -12,7 +12,7 @@ Package.onUse( function ( api ) {
   api.use('iron:router@1.0.7');
   api.use('grove:less@0.1.1');
 
-  api.use('photonic:glass-ui');
+  api.use('photonic:glass-ui@0.2.4');
 
   api.addFiles('components/usersTablePage/usersTablePage.html', ['client']);
   api.addFiles('components/usersTablePage/usersTablePage.js', ['client']);
