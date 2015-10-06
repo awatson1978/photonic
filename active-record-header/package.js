@@ -1,6 +1,6 @@
 Package.describe({
   name:'photonic:active-record-header',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Photonic::ActiveRecord::recordHeader',
   git: 'http://github.com/awatson1978/active-record/packages/active-record-header',
   documentation: 'README.md',
@@ -11,6 +11,7 @@ Package.onUse( function ( api ) {
   api.use('meteor-platform');
   api.use('iron:router@1.0.7');
   api.use('less');
+  api.use('photonic:glass-ui@0.2.4');
 
   api.addFiles('components/recordHeader/recordHeader.html', ['client']);
   api.addFiles('components/recordHeader/recordHeader.js', ['client']);
