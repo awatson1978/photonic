@@ -1,6 +1,6 @@
 Package.describe({
   name:'photonic:active-record-footer',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'Photonic::ActiveRecord::recordFooter',
   git: 'http://github.com/awatson1978/active-record/packages/active-record-footer',
   documentation: 'README.md',
