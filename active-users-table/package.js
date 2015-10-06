@@ -1,6 +1,6 @@
 Package.describe({
   name:'photonic:active-users-table',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'ActiveUsers::usersTablePage',
   git: 'https://github.com/awatson1978/photonic/tree/master/packages/active-users-table',
   documentation: 'README.md',
