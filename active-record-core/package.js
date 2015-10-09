@@ -1,6 +1,6 @@
 Package.describe({
   name: 'photonic:active-record-core',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Photonic::ActiveRecord::Core',
   // URL to the Git repository containing the source code for this package.
@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.use('aldeed:simple-schema@1.3.3');
   api.use('aldeed:collection2@2.3.3');
   api.use('aldeed:autoform@5.3.2');
-  api.use('less');
+  api.use('grove:less@0.1.1');
 
   api.imply('aldeed:simple-schema');
   api.imply('aldeed:collection2');
